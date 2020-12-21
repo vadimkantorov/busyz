@@ -1,6 +1,6 @@
 # nanozip
 
-A simple `zip`-like utility, supporting recursive directory traversal and excludes.
+A simple `zip`-like utility, supporting recursive directory traversal and excludes (I used it in [busytex](https://github.com/busytex/busyide)).
 
 It uses an excellent single-file [miniz](https://github.com/richgel999/miniz) zlib library by [Richard Geldreich](https://twitter.com/richgel999).
 
