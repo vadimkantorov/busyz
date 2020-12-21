@@ -4,7 +4,6 @@ on: workflow_dispatch
 
 env:
   URL_MINIZ: https://github.com/richgel999/miniz/releases/download/2.1.0/miniz-2.1.0.zip
-  MAKEFLAGS: -j2
 
 jobs:
   make:
