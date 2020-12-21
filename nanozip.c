@@ -7,7 +7,7 @@
 #define __USE_XOPEN_EXTENDED 1
 #include <ftw.h>
 
-#include "miniz.c"
+#include "miniz.h"
 
 enum { MAX_FILE_PATH_LENGTH = 1024, MAX_EXCLUDE_PATHS = 16, MAX_INPUT_PATHS = 16, USE_FDS = 15 };
 
