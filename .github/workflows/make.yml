@@ -15,5 +15,5 @@ jobs:
         run: make miniz nanozip URL_MINIZ=$URL_MINIZ
 
       - name: test
-        run: ./nanozip -r -x miniz.c -x minizip.h ../archive.zip $PWD && unzip ../archive.zip
+        run: cd .. && ./nanozip/nanozip -r -x nanozip/.git -x nanozip/miniz.c -x nanozip/minizip.h archive.zip nanozip && unzip archive.zip
 
