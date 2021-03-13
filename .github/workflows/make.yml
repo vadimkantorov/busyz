@@ -12,8 +12,8 @@ jobs:
       - uses: actions/checkout@v2
 
       - name: build
-        run: make miniz nanozip URL_MINIZ=$URL_MINIZ
+        run: make miniz busyzip URL_MINIZ=$URL_MINIZ
 
       - name: test
-        run: cd .. && ./nanozip/nanozip -r -x nanozip/.git -x nanozip/miniz.c -x nanozip/minizip.h archive.zip nanozip && unzip archive.zip
+        run: cd .. && ./busyzip/busyzip -r -x busyzip/.git -x busyzip/miniz.c -x busyzip/minizip.h archive.zip busyzip && unzip archive.zip
 
