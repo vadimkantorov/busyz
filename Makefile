@@ -1,6 +1,6 @@
 URL_miniz ?= https://github.com/richgel999/miniz/releases/download/2.1.0/miniz-2.1.0.zip
 
-nanozip: nanozip.c miniz.c miniz.h
+busyzip: busyzip.c miniz.c miniz.h
 	$(CC) $< miniz.c -o $@
 
 .PHONY: miniz
