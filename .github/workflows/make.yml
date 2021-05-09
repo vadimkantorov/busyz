@@ -12,8 +12,8 @@ jobs:
       - uses: actions/checkout@v2
 
       - name: build
-        run: make miniz busyzip URL_MINIZ=$URL_MINIZ
+        run: make miniz busyz URL_MINIZ=$URL_MINIZ
 
       - name: test
-        run: cd .. && ./busyzip/busyzip -r -x busyzip/.git -x busyzip/miniz.c -x busyzip/minizip.h archive.zip busyzip && unzip archive.zip
+        run: cd .. && ./busyz/busyz zip -r -x busyz/.git -x busyz/miniz.c -x busyzip/minizip.h archive.zip busyz && unzip archive.zip
 
