@@ -1,4 +1,4 @@
-# busyzip
+# busyz
 
 A simple `zip`-like utility, supporting recursive directory traversal and excludes (I used it in [busytex](https://github.com/busytex/busyide)).
 
