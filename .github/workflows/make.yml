@@ -15,5 +15,5 @@ jobs:
         run: make miniz busyz URL_MINIZ=$URL_MINIZ
 
       - name: test
-        run: cd .. && ./busyz/busyz zip -r -x busyz/.git -x busyz/miniz.c -x busyzip/minizip.h archive.zip busyz && unzip archive.zip
+        run: cd .. && ./busyz/busyz zip -r -x busyz/.git -x busyz/miniz.c -x busyz/minizip.h archive.zip busyz && unzip archive.zip
 
