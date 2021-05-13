@@ -12,7 +12,7 @@ make busy
 make miniz busyz
 
 # compress the current directory
-./busyz zip -r -x miniz.c -x minizip.h ../archive.zip $PWD
+./busyz zip -r -x miniz.c -x minizip.h ../archive.zip .
 
 # decompress the current directory
 ./busyz unzip ../archive.zip -d ../archive_
