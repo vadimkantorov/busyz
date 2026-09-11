@@ -6,7 +6,7 @@ It uses an excellent single-file [miniz](https://github.com/richgel999/miniz) zl
 
 ```shell
 # build using in-tree miniz 2.1.0
-make busy
+make busyz
 
 # update miniz if needed and rebuild
 make miniz busyz
